@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5353B394-781A-461B-9C09-55DE34EA8427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "YoutubeApi.Application\YoutubeApi.Application.csproj", "{82C663C8-F4D9-4A15-98AE-CC50BD54DD41}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{E373ED8A-0D56-43C5-9840-FBE695BE74A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Infrastructure", "Infrastructure\YoutubeApi.Infrastructure\YoutubeApi.Infrastructure.csproj", "{610208EB-B400-4652-9766-71AC0FFB5A9D}"
@@ -19,16 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Persistence", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Presentation\YoutubeApi.Api\YoutubeApi.Api.csproj", "{6487B57A-2CB2-4FEC-A9D5-9073681D26B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "YoutubeApi.Application\YoutubeApi.Application.csproj", "{474185D2-2ADC-47BD-94A8-5F448C3EA208}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82C663C8-F4D9-4A15-98AE-CC50BD54DD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82C663C8-F4D9-4A15-98AE-CC50BD54DD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82C663C8-F4D9-4A15-98AE-CC50BD54DD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82C663C8-F4D9-4A15-98AE-CC50BD54DD41}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E373ED8A-0D56-43C5-9840-FBE695BE74A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E373ED8A-0D56-43C5-9840-FBE695BE74A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E373ED8A-0D56-43C5-9840-FBE695BE74A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,16 +41,20 @@ Global
 		{6487B57A-2CB2-4FEC-A9D5-9073681D26B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6487B57A-2CB2-4FEC-A9D5-9073681D26B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6487B57A-2CB2-4FEC-A9D5-9073681D26B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{82C663C8-F4D9-4A15-98AE-CC50BD54DD41} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E373ED8A-0D56-43C5-9840-FBE695BE74A5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{610208EB-B400-4652-9766-71AC0FFB5A9D} = {8CD01127-FE70-4AD8-9A18-E537A5512693}
 		{44330BE7-8B13-418B-87F8-6BC1B24C9F2E} = {8CD01127-FE70-4AD8-9A18-E537A5512693}
 		{6487B57A-2CB2-4FEC-A9D5-9073681D26B5} = {5353B394-781A-461B-9C09-55DE34EA8427}
+		{474185D2-2ADC-47BD-94A8-5F448C3EA208} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4038C00C-32A2-4EF8-83FC-FF032A629325}
