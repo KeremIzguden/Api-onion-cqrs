@@ -14,9 +14,9 @@ namespace YoutubeApi.Domain.Entities
         }
         public Category(int parentId , string name ,int priorty) 
         {
-            parentId = ParentId;
-            name = Name;
-            priorty = Priorty;
+            ParentId = parentId;
+            Name = name;
+            Priorty = priorty;
 
         }
 
