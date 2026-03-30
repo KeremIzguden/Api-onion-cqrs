@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Presentat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "YoutubeApi.Application\YoutubeApi.Application.csproj", "{474185D2-2ADC-47BD-94A8-5F448C3EA208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Mapper", "YoutubeApi.Mapper\YoutubeApi.Mapper.csproj", "{1A0F8537-81DF-457A-BB80-D81B6A8AF34F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{474185D2-2ADC-47BD-94A8-5F448C3EA208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0F8537-81DF-457A-BB80-D81B6A8AF34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0F8537-81DF-457A-BB80-D81B6A8AF34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0F8537-81DF-457A-BB80-D81B6A8AF34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0F8537-81DF-457A-BB80-D81B6A8AF34F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{44330BE7-8B13-418B-87F8-6BC1B24C9F2E} = {8CD01127-FE70-4AD8-9A18-E537A5512693}
 		{6487B57A-2CB2-4FEC-A9D5-9073681D26B5} = {5353B394-781A-461B-9C09-55DE34EA8427}
 		{474185D2-2ADC-47BD-94A8-5F448C3EA208} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1A0F8537-81DF-457A-BB80-D81B6A8AF34F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4038C00C-32A2-4EF8-83FC-FF032A629325}
