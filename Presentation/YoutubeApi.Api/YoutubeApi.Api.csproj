@@ -24,4 +24,8 @@
     <ProjectReference Include="..\..\Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\Controllers\" />
+  </ItemGroup>
+
 </Project>
