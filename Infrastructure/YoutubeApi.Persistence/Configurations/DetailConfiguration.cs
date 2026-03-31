@@ -43,8 +43,8 @@ namespace YoutubeApi.Persistence.Configurations
                 CreatedDate = new DateTime(2024, 1, 1),
                 IsDeleted = false,
             };
-            
-            
+
+            builder.HasData(detail1, detail2,detail3);
 
         }
     }

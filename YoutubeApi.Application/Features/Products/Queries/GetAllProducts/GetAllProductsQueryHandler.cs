@@ -19,6 +19,7 @@ namespace YoutubeApi.Application.Features.Products.Queries.GetAllProducts
         public GetAllProductsQueryHandler(IUnitOfWork unitOfWork,IMapper mapper)
         {
             this.unitOfWork = unitOfWork;
+            this.mapper = mapper;
         }
         public async Task<IList<GetAllProductsQueryResponse>> Handle(GetAllProductsQueryRequest request, CancellationToken cancellationToken)
         {
