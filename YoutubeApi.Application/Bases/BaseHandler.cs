@@ -16,6 +16,7 @@ namespace YoutubeApi.Application.Bases
         public readonly IUnitOfWork unitOfWork;
         public readonly IHttpContextAccessor httpContextAccessor;
         public readonly string userId;
+        private Interfaces.AutoMapper.IMapper mapper1;
 
         public BaseHandler(IMapper mapper,IUnitOfWork unitOfWork ,IHttpContextAccessor httpContextAccessor)
         {
@@ -24,6 +25,12 @@ namespace YoutubeApi.Application.Bases
             this.httpContextAccessor = httpContextAccessor;
             userId = httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
         }
-            
+
+        public BaseHandler(Interfaces.AutoMapper.IMapper mapper1, IUnitOfWork unitOfWork, IHttpContextAccessor httpContextAccessor)
+        {
+            this.mapper1 = mapper1;
+            this.unitOfWork = unitOfWork;
+            this.httpContextAccessor = httpContextAccessor;
+        }
     }
 }
