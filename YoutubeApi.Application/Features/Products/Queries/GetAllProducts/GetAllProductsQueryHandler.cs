@@ -16,6 +16,8 @@ namespace YoutubeApi.Application.Features.Products.Queries.GetAllProducts
     {
         private readonly IUnitOfWork unitOfWork;
         private readonly IMapper mapper;
+        private object response;
+
         public GetAllProductsQueryHandler(IUnitOfWork unitOfWork,IMapper mapper)
         {
             this.unitOfWork = unitOfWork;
@@ -27,16 +29,7 @@ namespace YoutubeApi.Application.Features.Products.Queries.GetAllProducts
 
             var brand = mapper.Map<BrandDto,Brand>(new Brand());
 
-            //foreach(var product in products)
-            //{
-            //    response.Add(new GetAllProductsQueryResponse
-            //    {
-            //        Title = product.Title,
-            //        Description = product.Description,
-            //        Discount = product.Discount,
-            //        Price = product.Price-(product.Price*product.Discount /100),
-            //    });
-            //}
+            
             var map = mapper.Map<GetAllProductsQueryResponse, Product>(products);
             foreach ( var item in map)
                 item.Price-=(item.Price*item.Discount/100);

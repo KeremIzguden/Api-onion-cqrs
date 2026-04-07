@@ -7,9 +7,9 @@ using YoutubeApi.Application.Bases;
 
 namespace YoutubeApi.Application.Features.Auth.Exceptions
 {
-    public class UserAlreadyExistException : BaseExceptions
-    {
-        public UserAlreadyExistException() :base("Böyle bir kullanıcı zaten var "){}
-    }
+        public class EmailOrPasswordShouldNotBeInvalidException : BaseExceptions
+        {
+            public EmailOrPasswordShouldNotBeInvalidException() : base("kullanıcı adı veya şifre yanlıştır  ") { }
+        }
     
 }
